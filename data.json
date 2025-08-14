@@ -1,0 +1,65 @@
+[
+  {
+    "year": "1946",
+    "title": "ENIAC – First General-Purpose Computer",
+    "description": "The ENIAC was unveiled in 1946 as the first electronic general-purpose computer. It could perform thousands of calculations per second, revolutionizing computing for science and the military.",
+    "imageURL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSPtYW8cbG1IwpGxiC-LvMdVJM5Kn-tdJ_D9h9MKz8uGEglTUMdnaZoetiGvuT8XxLj7T5RfO3xabOze_8TLf5TxrbbzjT0585fiVXC_AY",
+    "category": "Hardware"
+  },
+  {
+    "year": "1971",
+    "title": "Intel 4004 – First Microprocessor",
+    "description": "The first microprocessor was the Intel 4004, released in November 1971. It was a groundbreaking invention that integrated all the essential components of a central processing unit (CPU) onto a single silicon chip. This single-chip CPU paved the way for the development of smaller, more powerful, and more affordable computing devices. ",
+    "imageURL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQY1S-5HAtVd8_TXjif-r1sO_jQoW17uWK716i5cQYjcEsJZfrfBHemouKx3XPqY5bUUqQW",
+    "category": "Hardware"
+  },
+  {
+    "year": "1977",
+    "title": "Apple II Released",
+    "description": "The Apple II computer was first released to the public on June 10, 1977. It was designed by Steve Wozniak and became the first commercially successful Apple product",
+    "imageURL": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQNK_iCk73m_Eoq86TcY2vNBJ5jbd_et9v8BwiBUT4DJgTzADLHcuEyC6iS0nMIlVR4SQEVGQ",
+    "category": "Personal Computing"
+  },
+  {
+    "year": "1981",
+    "title": "IBM PC Launched",
+    "description": "The IBM Personal Computer (IBM PC), model 5150, was released on August 12, 1981. It was a significant event in the history of personal computing, as it helped standardize the PC platform and paved the way for the widespread adoption of personal computers by both individuals and businesses. ",
+    "imageURL": "https://external-preview.redd.it/dRMlIwz2nWdkuj9a6NyPzmhI_KQvx553vC3dmA4Pm1I.jpg?width=640&crop=smart&auto=webp&s=41a127b251329349e99684961b3916ce0884a8af",
+    "category": "Personal Computing"
+  },
+  {
+    "year": "1989",
+    "title": "World Wide Web Proposal",
+    "description": "The World Wide Web (WWW or Web) is a system of interconnected documents and resources, accessed via the Internet, that allows users to view and navigate web pages containing text, images, videos, and other multimedia content. It's a collection of websites and web pages that are linked together through hyperlinks. The Web is not the same as the Internet; the Internet is the underlying network, and the Web is one of the applications built on top of it. ",
+    "imageURL": "https://media.geeksforgeeks.org/wp-content/uploads/20250515121338799265/New-Project11.webp",
+    "category": "Internet"
+  },
+  {
+    "year": "1995",
+    "title": "Windows 95 Released",
+    "description": "Windows 95 was released to manufacturing on July 14, 1995, and generally to retail on August 24, 1995. It was a significant release, marking the first complete operating system in the Windows 9x family and introducing features like the Start menu and taskbar. ",
+    "imageURL": "https://lowendmac.com/win/95/win-95-1024.png",
+    "category": "Software"
+  },
+  {
+    "year": "2006",
+    "title": "Amazon Web Services Launched",
+    "description": "Amazon Web Services (AWS) was officially launched in 2006. It began as a way to offer IT infrastructure services to businesses over the internet, essentially pioneering the concept of cloud computing. Prior to AWS, businesses had to invest heavily in their own hardware and infrastructure, but AWS allowed them to access these resources on a pay-as-you-go basis. ",
+    "imageURL": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_aws.jpg",
+    "category": "Cloud Computing"
+  },
+  {
+    "year": "2016",
+    "title": "First Consumer VR Headsets Released",
+    "description": "The first mass-market consumer VR headset was the Oculus Rift CV1, released on March 28, 2016. It was preceded by development kits but marked the first time a high-quality, affordable VR headset was widely available for purchase by the general public, according to Wikipedia. The Rift CV1 was followed closely by the HTC Vive, which shipped in April 2016, and PlayStation VR, which launched in October 2016. ",
+    "imageURL": "https://about.fb.com/wp-content/uploads/2021/03/NRP-Cross_Post_Oculus_5year_anniversary_banner.png",
+    "category": "Virtual Reality"
+  },
+  {
+    "year": "2023",
+    "title": "AI-Powered PCs",
+    "description": "An AI-powered PC, or AI PC, is a personal computer designed to handle artificial intelligence tasks more efficiently than standard PCs. It achieves this through specialized hardware like a Neural Processing Unit (NPU) alongside the traditional CPU and GPU. This allows for faster processing of AI workloads, improved performance, and increased privacy by handling tasks locally. ",
+    "imageURL": "https://edgeup.asus.com/wp-content/uploads/2024/06/feature-ai-pc.jpg",
+    "category": "AI Technology"
+  }
+]
