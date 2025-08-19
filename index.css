@@ -28,7 +28,7 @@ body.active{
     justify-content: space-between;
 }
 
-.header.active{
+.active .header{
     background-color: var(--bg-dark);
     color: var(--bg-light);
 }
@@ -69,7 +69,7 @@ body.active{
     transition: all 0.3s ease;
 }
 
-.toggle-btn.active {
+.active .toggle-btn{
     background: #efc407 ;
     justify-content: end;
 }
@@ -82,7 +82,7 @@ body.active{
     position: relative;
 }
 
-.toggle-btn-inner.active {
+.active .toggle-btn-inner {
     background: #5d5d5d ;
 }
 
@@ -98,7 +98,7 @@ body.active{
     justify-self: center;
 }
 
-.main-content.active{
+.active .main-content{
     background-color: var(--bg-dark);
     color: var(--color-dark);
 }
@@ -211,7 +211,7 @@ body.active{
     color: var(--color-light);
 }
 
-#modal.active .modal-container {
+.active .modal-container {
     background-color: var(--bg-dark);
     color: var(--color-dark);
 }
