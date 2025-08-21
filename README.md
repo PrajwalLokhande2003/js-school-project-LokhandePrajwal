@@ -25,3 +25,17 @@ To keep things organized, I split the code into separate files:
 
 I added a build step that compiles the TypeScript into JavaScript and puts it in the `dist/` folder. The `index.html` now loads this compiled code, and I tested it to make sure the app still works in the browser.
 
+
+### Task #5
+
+Rebuilt the project as a React application using Vite (React + TypeScript template).
+
+Created reusable components:
+`<Header>` for logo + theme switch
+`<Timeline>` that maps event data into `<EventMarker>`
+`<EventMarker>` showing year/title dot
+`<EventModal>` for detailed view (with optional React Portal)
+`<FilterPanel>` placeholder for future filters/bookmarks
+
+Used useState and useEffect hooks to fetch data and control modal visibility.
+Styling maintained by importing existing CSS or migrating to CSS Modules / styled-components.
