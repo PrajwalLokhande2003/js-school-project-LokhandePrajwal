@@ -39,3 +39,15 @@ Created reusable components:
 
 Used useState and useEffect hooks to fetch data and control modal visibility.
 Styling maintained by importing existing CSS or migrating to CSS Modules / styled-components.
+
+
+### Task #6
+
+This task ensures the application is accessible to all users, including those with disabilities. Key updates include:
+
+- Added proper **ARIA roles and attributes** for semantic clarity.
+- Made modals fully accessible (`role="dialog"` / `<dialog>`).
+- Implemented **focus management** (focus trapping inside modal, return on close).
+- Enabled **keyboard navigation** (Tab/Arrow keys for timeline, Esc to close modal).
+- Improved **color contrast** to meet WCAG AA standards.
+- Documented changes in `ACCESSIBILITY.md`.

@@ -11,10 +11,14 @@ function EventMaker({ data }: { data: EventData[] | undefined }) {
           data && data.length > 0 ? (
             <div className="d-flex flex-column align-items-center col-10 col-md-8 bg-body-tertiary p-3 rounded-4">
               <h3>{data[0].title}</h3>
-              <img src={data[0].imageURL} alt={data[0].title} className="img-thumbnail rounded-4" />
-              <span className="badge text-bg-info fs-6 m-2">{data[0].category}</span>
+              <figure className="d-flex flex-column align-items-center">
+                <img src={data[0].imageURL} alt={data[0].title} className="img-thumbnail rounded-4" />
+                <figcaption className="badge text-bg-info fs-6 m-2">{data[0].category}</figcaption>
+              </figure>
               <p className=" justify-content-center d-flex">{data[0].description}</p>
-              <button className="btn btn-primary" onClick={() => setText('d-flex')}>Load more</button>
+              <button className="btn btn-primary" aria-haspopup="dialog" aria-controls="event-modal" onClick={() => setText("d-flex")}>
+                Load more about {data[0].title}
+              </button>
             </div>
           ) : (
             <p>No event selected</p>
