@@ -1,0 +1,54 @@
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+
+.toggle-btn {
+    width: 40px;
+    height: 15px;
+    background: #5d5d5d;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    transition: all 0.5s ease;
+}
+
+[data-bs-theme=dark] .toggle-btn {
+    background: #efc407;
+    justify-content: end;
+}
+
+.toggle-btn .toggle-btn-inner {
+    width: 20px;
+    height: 20px;
+    background: #efc407;
+    border-radius: 50%;
+    position: relative;
+}
+
+[data-bs-theme=dark] .toggle-btn-inner {
+    background: #5d5d5d;
+}
+
+.h-0 {
+    height: 0;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.scale-1-5 {
+    transform: scale(1.5);
+}
+
+.img-thumbnail {
+    width: 500px;
+    height: 300px;
+}
+
+@media screen and (max-width: 768px) {
+    .img-thumbnail {
+        width: 100%;
+        height: auto;
+    }
+
+}
