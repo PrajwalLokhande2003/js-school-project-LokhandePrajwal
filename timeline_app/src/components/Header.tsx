@@ -7,9 +7,9 @@ function Header() {
   return (
     <div className="header d-flex bg-body justify-content-between align-items-center p-2 position-sticky top-0 z-2">
       <h1 className="logo fw-bolder text-body">Timeline App</h1>
-      <div className="toggle-btn" onClick={handleToggle}>
+      <button className="toggle-btn cursor-pointer" aria-label="Toggle light and dark theme" onClick={handleToggle}>
         <div className="toggle-btn-inner"></div>
-      </div>
+      </button>
     </div>
   );
 };

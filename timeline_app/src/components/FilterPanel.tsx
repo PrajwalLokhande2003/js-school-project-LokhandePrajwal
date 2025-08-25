@@ -3,9 +3,9 @@ import React from "react";
 function FilterPanel() {
   return (
     <div className="filter-panel justify-content-start align-items-center d-flex w-100 overflow-auto">
-      <h5 className="fw-bolder pe-3">Filter</h5>
+      <span className="fw-bolder fs-5 pe-3">Filter</span>
       <div className="btn-group" role="group" aria-label="Basic checkbox toggle button group">
-        <input type="checkbox" className="btn-check" id="btncheck1" autoComplete="off" checked />
+        <input type="checkbox" className="btn-check" id="btncheck1" autoComplete="off" defaultChecked />
         <label className="btn btn-outline-primary align-items-center d-flex" htmlFor="btncheck1">All</label>
 
         <input type="checkbox" className="btn-check" id="btncheck2" autoComplete="off" />
